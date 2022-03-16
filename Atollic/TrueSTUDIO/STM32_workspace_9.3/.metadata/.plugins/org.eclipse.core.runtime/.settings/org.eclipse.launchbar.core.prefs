@@ -1,6 +1,0 @@
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:TEST_STM32_CubeMX_AtollicTrueSTODIO.elf
-eclipse.preferences.version=1
-org.eclipse.launchbar.core.descriptorType.default\:TEST_STM32_CubeMX_AtollicTrueSTODIO.elf/activeLaunchMode=debug
-org.eclipse.launchbar.core.descriptorType.default\:TEST_STM32_CubeMX_AtollicTrueSTODIO.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
