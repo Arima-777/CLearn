@@ -1,0 +1,2140 @@
+!SESSION 2022-03-09 12:29:06.109 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ru_RU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-09 12:30:11.018
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-09 12:30:11.071
+!MESSAGE Log4j initialized with config file /home/amon/GITprojects/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.urischeme 4 0 2022-03-09 12:30:11.524
+!MESSAGE Cannot run program "xdg-mime": error=2, Нет такого файла или каталога
+!STACK 0
+java.io.IOException: Cannot run program "xdg-mime": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at org.eclipse.urischeme.internal.registration.ProcessExecutor.execute(ProcessExecutor.java:36)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.getRegisteredDesktopFileForScheme(RegistrationLinux.java:145)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.determineHandlerLocation(RegistrationLinux.java:87)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.getSchemesInformation(RegistrationLinux.java:76)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 7 more
+
+!ENTRY com.st.stm32cube.ide.common.ui 4 0 2022-03-09 12:30:11.836
+!MESSAGE Failed to open URL: file:/app/stm32cubeide/plugins/com.st.stm32cube.ide.documentation_2.0.0.202107051351/docs/DM00603738.pdf
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-09 12:30:13.797
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:14.764
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:14.766
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:14.768
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:14.770
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:15.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:15.756
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:15.758
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:15.759
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:16.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:16.758
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:16.759
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:16.761
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:17.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:17.757
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:17.758
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:17.760
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:18.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:18.756
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:18.757
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:18.759
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:19.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:19.757
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:19.759
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:19.760
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:20.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:20.756
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:20.757
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:20.758
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:21.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:21.757
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:21.758
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:21.759
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:22.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:22.757
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:22.758
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:22.760
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:23.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:23.756
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:23.757
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:23.758
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:50.756
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:51.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:52.756
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:53.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:54.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:55.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:56.756
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:57.754
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:58.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:30:59.755
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+!SESSION 2022-03-09 12:38:27.070 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ru_RU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-09 12:38:30.538
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-09 12:38:30.594
+!MESSAGE Log4j initialized with config file /home/amon/GITprojects/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.urischeme 4 0 2022-03-09 12:38:31.661
+!MESSAGE Cannot run program "xdg-mime": error=2, Нет такого файла или каталога
+!STACK 0
+java.io.IOException: Cannot run program "xdg-mime": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at org.eclipse.urischeme.internal.registration.ProcessExecutor.execute(ProcessExecutor.java:36)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.getRegisteredDesktopFileForScheme(RegistrationLinux.java:145)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.determineHandlerLocation(RegistrationLinux.java:87)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.getSchemesInformation(RegistrationLinux.java:76)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 7 more
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-09 12:38:33.501
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:34.344
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:34.346
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:34.348
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:34.350
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:35.338
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:35.339
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:35.340
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:35.341
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:36.339
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:36.341
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:36.343
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:36.344
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:37.339
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:37.345
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:37.347
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:38:37.350
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+!SESSION 2022-03-09 12:40:20.950 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ru_RU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-09 12:40:24.438
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-09 12:40:24.491
+!MESSAGE Log4j initialized with config file /home/amon/GITprojects/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.urischeme 4 0 2022-03-09 12:40:25.619
+!MESSAGE Cannot run program "xdg-mime": error=2, Нет такого файла или каталога
+!STACK 0
+java.io.IOException: Cannot run program "xdg-mime": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at org.eclipse.urischeme.internal.registration.ProcessExecutor.execute(ProcessExecutor.java:36)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.getRegisteredDesktopFileForScheme(RegistrationLinux.java:145)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.determineHandlerLocation(RegistrationLinux.java:87)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.getSchemesInformation(RegistrationLinux.java:76)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 7 more
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-09 12:40:27.558
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:40:28.534
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:40:28.536
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:40:28.538
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:40:28.540
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-09 12:40:28.541
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+!SESSION 2022-03-16 23:54:32.744 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ru_RU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-16 23:54:37.253
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-16 23:54:37.339
+!MESSAGE Log4j initialized with config file /home/amon/GITprojects/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.urischeme 4 0 2022-03-16 23:54:38.722
+!MESSAGE Cannot run program "xdg-mime": error=2, Нет такого файла или каталога
+!STACK 0
+java.io.IOException: Cannot run program "xdg-mime": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at org.eclipse.urischeme.internal.registration.ProcessExecutor.execute(ProcessExecutor.java:36)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.getRegisteredDesktopFileForScheme(RegistrationLinux.java:145)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.determineHandlerLocation(RegistrationLinux.java:87)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.getSchemesInformation(RegistrationLinux.java:76)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 7 more
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-16 23:54:41.094
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:42.071
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:42.072
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:42.073
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:42.075
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:43.058
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:43.060
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:43.062
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:43.064
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:44.059
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:44.061
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:44.063
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:44.065
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:45.058
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:45.060
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:45.061
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:45.062
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:46.058
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:46.060
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:46.062
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:46.063
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:47.057
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:47.059
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:47.061
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:47.063
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:48.058
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:48.059
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:48.061
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:48.062
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:49.057
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:49.059
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:49.060
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:49.061
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:50.058
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:50.059
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:50.061
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:50.063
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:51.058
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:51.060
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:51.062
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-03-16 23:54:51.064
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Нет такого файла или каталога
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-17 00:04:02.918
+!MESSAGE Indexed 'Linux_CubeMX_CleanProj' (21 sources, 26 headers) in 2.5 sec: 2,110 declarations; 11,916 references; 14 unresolved inclusions; 47 syntax errors; 2,109 unresolved names (13%)
