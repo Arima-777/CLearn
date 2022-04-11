@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="hanoi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../Code/hanoi.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="84" Y="9"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1" ActiveMode="default">
+        <Mode0 Name="default">
+          <local>
+            <CommandLineParams Value="4"/>
+            <Display Use="True"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkData"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <InitialEnabled Value="False"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
