@@ -1,4 +1,6 @@
+#include<stdio.h>
 
+int main(void){
 
-int main(void)
-    pri
+	return 0;
+}
