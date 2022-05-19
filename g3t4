@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void)
+{
+	float Value;
+	printf("Введите значение с плаващей запятой: ");
+	scanf("%f", &Value);
+	printf("Запись с фиксированной запятой: %f\n", Value);
+	printf("Экспоненциальная форма записи: %e\n", Value);
+	printf("Двоично-экспоненциальное представление: %a\n", Value);
+	return 0;
+}
